@@ -10,7 +10,12 @@ public class Food {
     Food food = new Food();
 
     public void setGroup(String group) {
-        this.group = group;
+        if(group.contains("fruit")) {
+            group = "Fruit rocks!";
+        }else{
+            this.group = group + " is almost as good as fruit";
+        }
+
     }
 
     public String getGroup() {
