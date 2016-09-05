@@ -7,9 +7,7 @@ public class Food {
     public boolean isGlutenFree;
 
 
-    public Food() {
-
-    }
+    Food food = new Food();
 
     public void setGroup(String group) {
         this.group = group;

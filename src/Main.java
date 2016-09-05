@@ -14,8 +14,8 @@ public class Main {
         System.out.println(motorcyces.getManufacturer());
 
         Laptops laptops = new Laptops();
-        laptops.setOs("windows");
-        System.out.println(laptops.getOs());
+        laptops.setOperatingSystem("windows");
+        System.out.println(laptops.getOperatingSystem());
 
         Food food = new Food();
         food.setCalories(110);

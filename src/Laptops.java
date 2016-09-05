@@ -5,11 +5,9 @@ public class Laptops {
     public String brand;
     public double processor;
     public boolean isNewestModel;
-    public String os;
+    public String operatingSystem;
 
-    public Laptops() {
-
-    }
+    Laptops laptops = new Laptops();
 
     public void setBrand(String brand) {
         this.brand = brand;
@@ -35,16 +33,16 @@ public class Laptops {
         return isNewestModel;
     }
 
-    public void setOs(String os) {
+    public void setOperatingSystem(String os) {
         if(os.equals("ios")) {
-            this.os = "Macbook";
+            this.operatingSystem = "Macbook";
         }else{
-            this.os = "other";
+            this.operatingSystem = "other";
         }
     }
 
 
-    public String getOs() {
-        return os;
+    public String getOperatingSystem() {
+        return operatingSystem;
     }
 }

@@ -8,9 +8,7 @@ public class Motorcycles {
     public String style;
     public boolean production;
 
-    public Motorcycles() {
-
-    }
+    Motorcycles motorcycles = new Motorcycles();
 
     public void setManufacturer(String manufacturer) {
         if(manufacturer.equalsIgnoreCase("Kawasaki")) {

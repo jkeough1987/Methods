@@ -1,3 +1,5 @@
+import sun.tools.tree.CatchStatement;
+
 import java.util.Objects;
 
 /**
@@ -11,9 +13,7 @@ public class Cars {
     public boolean isTowingCapable;
     public String model;
 
-    public Cars() {
-
-    }
+    Cars cars = new Cars();
 
     public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;

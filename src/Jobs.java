@@ -8,9 +8,8 @@ public class Jobs {
     public String field;
     public boolean isEntryLevel;
 
-    public Jobs() {
 
-    }
+    Jobs jobs = new Jobs();
 
     public void setPaytype(String paytype) {
         this.paytype = paytype;
