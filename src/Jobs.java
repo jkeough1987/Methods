@@ -2,14 +2,20 @@
  * Created by joshuakeough on 8/30/16.
  */
 public class Jobs {
-    public String paytype;
-    public int salary;
-    public int hours;
-    public String field;
-    public boolean isEntryLevel;
+    private String paytype;
+    private int salary;
+    private int hours;
+    private String field;
+    private boolean isEntryLevel;
 
 
-    Jobs jobs = new Jobs();
+    public Jobs(String paytype, int salary, int hours, String field, boolean isEntryLevel) {
+        this.paytype = paytype;
+        this.salary = salary;
+        this.hours = hours;
+        this.field = field;
+        this.isEntryLevel = isEntryLevel;
+    }
 
     public void setPaytype(String paytype) {
         this.paytype = paytype;

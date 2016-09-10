@@ -2,12 +2,17 @@
  * Created by joshuakeough on 8/30/16.
  */
 public class Laptops {
-    public String brand;
-    public double processor;
-    public boolean isNewestModel;
-    public String operatingSystem;
+    private String brand;
+    private double processor;
+    private boolean isNewestModel;
+    private String operatingSystem;
 
-    Laptops laptops = new Laptops();
+    public Laptops(String brand, double processor, boolean isNewestModel, String operatingSystem) {
+        this.brand = brand;
+        this.processor = processor;
+        this.isNewestModel = isNewestModel;
+        this.operatingSystem = operatingSystem;
+    }
 
     public void setBrand(String brand) {
         this.brand = brand;

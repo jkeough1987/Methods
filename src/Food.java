@@ -2,12 +2,16 @@
  * Created by joshuakeough on 8/30/16.
  */
 public class Food {
-    public String group;
-    public int calories;
-    public boolean isGlutenFree;
+    private String group;
+    private int calories;
+    private boolean isGlutenFree;
 
 
-    Food food = new Food();
+    public Food(String group, int calories, boolean isGlutenFree) {
+        this.group = group;
+        this.calories = calories;
+        this.isGlutenFree = isGlutenFree;
+    }
 
     public void setGroup(String group) {
         if(group.contains("fruit")) {

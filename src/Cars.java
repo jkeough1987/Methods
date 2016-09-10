@@ -7,13 +7,19 @@ import java.util.Objects;
  */
 public class Cars {
 
-    public String manufacturer;
-    public int passengers;
-    public String doors;
-    public boolean isTowingCapable;
-    public String model;
+    private String manufacturer;
+    private int passengers;
+    private String doors;
+    private boolean isTowingCapable;
+    private String model;
 
-    Cars cars = new Cars();
+    public Cars(String manufacturer, int passengers, String doors, boolean isTowingCapable, String model) {
+        this.manufacturer = manufacturer;
+        this.passengers = passengers;
+        this.doors = doors;
+        this.isTowingCapable = isTowingCapable;
+        this.model = model;
+    }
 
     public void setManufacturer(String manufacturer) {
         this.manufacturer = manufacturer;

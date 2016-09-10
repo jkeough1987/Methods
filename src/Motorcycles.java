@@ -2,13 +2,19 @@
  * Created by joshuakeough on 8/30/16.
  */
 public class Motorcycles {
-    public String manufacturer;
-    public int years;
-    public int power;
-    public String style;
-    public boolean production;
+    private String manufacturer;
+    private int years;
+    private int power;
+    private String style;
+    private boolean production;
 
-    Motorcycles motorcycles = new Motorcycles();
+    public Motorcycles(String manufacturer, int years, int power, String style, boolean production) {
+        this.manufacturer = manufacturer;
+        this.years = years;
+        this.power = power;
+        this.style = style;
+        this.production = production;
+    }
 
     public void setManufacturer(String manufacturer) {
         if(manufacturer.equalsIgnoreCase("Kawasaki")) {
